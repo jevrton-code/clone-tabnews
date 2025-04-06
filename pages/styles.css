@@ -1,0 +1,113 @@
+:root {
+  --mauve-color: #cba6f7;
+  --text-color: #9399b2;
+  --subtext-1-color: #7f849c;
+  --base-color: #11111b;
+  --surface-0-color: #181825;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--base-color);
+}
+
+.main-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.topbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 10vh;
+  background-color: var(--surface-0-color);
+}
+
+.topbar-container .logo {
+  color: var(--mauve-color);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.contact-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.contact-container .contact a {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.contact-container .contact a:hover {
+  color: var(--mauve-color);
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.content-container .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  width: 80%;
+  background-color: var(--surface-0-color);
+}
+
+.content-container .content .content-title {
+  color: var(--subtext-1-color);
+  font-size: 3rem;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+}
+
+.content-container .content .content-text {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+  height: 15vh;
+  background-color: var(--surface-0-color);
+}
+
+.footer-container .footer-text {
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.footer-container .footer-text .footer-link {
+  color: var(--mauve-color);
+  text-decoration: none;
+}
