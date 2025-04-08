@@ -1,4 +1,3 @@
-// definição do nosso "objeto concreto"
 function Home() {
   return (
     <div className="main-container">
@@ -19,7 +18,7 @@ function Home() {
           <div className="content-title">Opa! Página em Construção! 🔨</div>
           <div className="content-text">
             <p>
-              Iai, bão? Essa página está em construção, mas não se preocupe!{" "}
+              Iai, bão? Essa página está em construção, mas não se preocupe!
               <br />
               Em breve, você encontrará aqui informações sobre mim, meu trabalho
               e projetos interessantes que estou desenvolvendo.
@@ -45,5 +44,4 @@ function Home() {
   );
 }
 
-// export da função padrão
 export default Home;
